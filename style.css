@@ -1,0 +1,70 @@
+.navbar {
+    background-color: black;
+}
+.nav-link {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-link:hover {
+    color: mediumpurple !important;
+}
+footer {
+    background-color: mediumpurple;
+    display: grid;
+    place-items: center;
+    padding: 20px 0px 20px 0px;
+    padding-bottom: 20px;
+}
+form {
+    width: 300px;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 40px 30px 40px;
+    position: relative;
+}
+form > input {
+    font-size: 16px;
+}
+label {
+    position: relative;
+    top: 10px;
+}
+button {
+    background-color: mediumpurple;
+    padding: 5px;
+    color: white;
+    display: block !important;
+    margin: auto !important;
+    width: 220px;
+    height: 44px;
+
+}
+textarea {
+    height: 130px;
+    width: 220px;
+}
+button:hover {
+    background-color: gray !important;
+}
+/*Styles input fields based on whether they are valid or invalid
+input:valid {
+    border: 3px solid green;
+}
+input:invalid {
+    border: 2px solid red;
+}
+*/
+span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50px, 100px);
+    
+
+}
+@media screen and (max-width: 600px) {
+    .navbar {
+        display: none !important;
+    }
+}
